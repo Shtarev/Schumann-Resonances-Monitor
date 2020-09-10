@@ -1,11 +1,11 @@
 <?php
 class Viborkashum
 {
-	public $file;
-	public $monat;
-	public $erste_key;
+    public $file;
+    public $monat;
+    public $erste_key;
     public $erste = 0;
-	public $this_key = 0;
+    public $this_key = 0;
     public $this_key_knop = 0;
     public $vzad = 0;
     public $pered = 0;
@@ -14,7 +14,6 @@ class Viborkashum
 	function __construct()
 	{
 		$this->file = scandir('shumann_img/', 1);
-		// если в папке есть файлы
 		if($last = count($this->file)){
 			array_pop($this->file);
 			array_pop($this->file);
