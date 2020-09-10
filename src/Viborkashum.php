@@ -9,7 +9,7 @@ class Viborkashum
     public $this_key_knop = 0;
     public $vzad = 0;
     public $pered = 0;
-	public $konez = 0;
+    public $konez = 0;
 	
 	function __construct()
 	{
